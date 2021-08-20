@@ -24,4 +24,4 @@ jobs:
         with:
           push: true
           tags: |
-            plugins.buf.build/boostport/validate${{ env.TAG }}
+            plugins.buf.build/boostport/validate:${{ env.TAG }}
